@@ -1,6 +1,6 @@
 package gestionTareas;
 
-public class ComandoTareaCompletada implements Comando{
+public class ComandoTareaCompletada implements Comando {
     private Tarea tarea;
 
     public ComandoTareaCompletada(Tarea tarea) {
@@ -13,4 +13,5 @@ public class ComandoTareaCompletada implements Comando{
 
     public void undo() {
         tarea.DesmarcarTareaCompleta();
+    }
 }
