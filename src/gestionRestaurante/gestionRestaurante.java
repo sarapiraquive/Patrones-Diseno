@@ -1,3 +1,5 @@
+package gestionRestaurante;
+
 public abstract class gestionRestaurante {
     public void processOrder() {
         tomarOrden();
