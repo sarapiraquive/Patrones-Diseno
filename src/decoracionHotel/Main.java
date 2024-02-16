@@ -15,6 +15,5 @@ public class Main {
 
         habitacion = new ConChocolateGourmet(habitacion);
         System.out.println(habitacion.decorar());
-
     }
 }
