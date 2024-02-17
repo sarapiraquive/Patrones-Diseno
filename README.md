@@ -14,3 +14,5 @@ Integrantes: Sebastián Castellanos & Sara Piraquive
    1. Patron Estructural (Decorator): Se esocgio este patron ya que es el mas apropiado para este caso a que permite agregar nuevas funcionalidades a objetos existentes sin alterar su estructura, en este contexto se pueden añadir nuevas decoraciones, ademas de combinar decoraciones flexiblemente y ademas no cambia el comportamiento de la clase original, en conclusion es un sistema que se adapta a las necesidades del cliente.
    2. ![caso4.png](caso4.png)
 5. Sistema Envios
+   1. Patron Estructural (Bridge): Se escogio este patron ya que desacopla la abstraccion de la implementacion y ademas facilita la extenisbilidad del sistema, esto con el proposito de manejar diversas combinaciones de envios y servicios y mantentiendo e codigo organizado.
+   2. ![caso5.png](caso5.png)
